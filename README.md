@@ -1,23 +1,27 @@
-📝 AI Grammar & Style Corrector — Simple Version
-
-Here’s a fully copy-paste ready README.md, with:
-✅ Animated top section ✨
-✅ Emojis 🎨
-✅ Modern layout 🧠
-✅ Works great in GitHub preview
-
+<!-- Top animated banner -->
 <p align="center">
-  <img src="https://i.pinimg.com/originals/d9/25/3b/d9253b91b4a8a46fbc0e47f63a0b86a2.gif" width="900" alt="Animated AI Banner"/>
+  <img src="https://i.pinimg.com/originals/d9/25/3b/d9253b91b4a8a46fbc0e47f63a0b86a2.gif" width="900" alt="AI Grammar Style Corrector Banner"/>
 </p>
 
-<h1 align="center">📝 AI Grammar & Style Corrector — Simple Version</h1>
+<h1 align="center">📝 AI Grammar &amp; Style Corrector — Simple Version</h1>
 
+<!-- Technology badges -->
 <p align="center">
-  <em>✨ An offline-friendly web app that makes your writing clear, correct, and confident — powered by <b>Python</b>, <b>LanguageTool</b>, and <b>Streamlit</b>.</em>
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python"/>
+  <img src="https://img.shields.io/badge/Streamlit-Web_App-red?logo=streamlit"/>
+  <img src="https://img.shields.io/badge/LanguageTool-NLP-blueviolet?logo=java"/>
+  <img src="https://img.shields.io/badge/AWS-Ready-yellowgreen?logo=amazon-aws"/>
 </p>
 
 <p align="center">
-  <img src="https://github.githubassets.com/images/mona-loading-default.gif" width="70" alt="loading animation"/>
+  <em>✨ An offline-friendly web app making your writing clear, correct, and confident — powered by Python, LanguageTool, and Streamlit.</em>
+</p>
+
+<!-- Quick Demo GIF -->
+<p align="center">
+  <img src="https://media.giphy.com/media/IhDjGTADfY2lQ/giphy.gif" width="350" alt="Demo Animation"/>
+  <br>
+  <b>Write clearly. Write confidently. ✍️</b>
 </p>
 
 ---
@@ -31,56 +35,82 @@ Here’s a fully copy-paste ready README.md, with:
 
 ---
 
-## ⚙️ Setup Instructions
+## 🌟 Achievements & Impact
+- 🏆 Hackathon finalist (customize if applicable)
+- 👥 Used by 100+ writers (example stat)
+- 🚀 Deployed to AWS / Streamlit Cloud / HuggingFace Spaces
 
-### 1️⃣ Clone the repository or unzip this project
+---
+
+## ⚒️ Tech Stack
+- Python, Streamlit, LanguageTool, AWS, Docker
+
+---
+
+## 📸 Screenshots
+<p align="center">
+  <img src="https://raw.githubusercontent.com/omkarsl/AI-Powered_Grammar_-_Style_Corrector/main/screenshots/demo1.png" width="350"/>
+  <img src="https://raw.githubusercontent.com/omkarsl/AI-Powered_Grammar_-_Style_Corrector/main/screenshots/demo2.png" width="350"/>
+</p>
+
+---
+
+## 💡 About Me
+I'm **Omkar**, passionate about AI, NLP, and software that empowers better writing.  
+[LinkedIn](https://www.linkedin.com/in/yourprofile) | [Portfolio](https://yourportfolio.com) | [Email](mailto:your@email.com)
+
+---
+
+## 🎯 Why Recruit Me?
+- Hands-on skills in Python, DSA, AWS, CI/CD, Java, Android, AI/ML, NLP
+- Experience building production-ready apps with modern design
+- Proven problem-solving & teamwork skills  
+*(see more in my Resume attached or at my GitHub)*
+
+---
+
+## ⚙️ Quickstart
 ```bash
-cd grammar-corrector
-
-2️⃣ Create virtual environment (optional but recommended)
+# Clone
+git clone https://github.com/omkarsl/AI-Powered_Grammar_-_Style_Corrector.git
+cd AI-Powered_Grammar_-_Style_Corrector
+# [Optional] Virtual Env
 python -m venv venv
-# Activate it:
-# Windows: venv\Scripts\activate
-# macOS/Linux: source venv/bin/activate
-
-3️⃣ Install dependencies
+source venv/bin/activate  # Windows: venv\Scripts\activate
+# Install dependencies
 pip install -r requirements.txt
-
-4️⃣ Run the app
+# Run app
 streamlit run app.py
+```
+Then open the displayed local URL 🎉
 
+---
 
-Then open the local URL shown in your terminal. 🎉
-
-🧠 Example Input
+## 🧠 Example Correction
+**Input:**  
 He go to school every day. He is very very good at study. In order to improve, he read a lot of books.
 
-✨ Output
+**Corrected Output:**  
 He goes to school every day. He is excellent at study. To improve, he read many books.
 
-🛠 Notes
+---
 
-☕ Requires Java (JRE) installed for LanguageTool to work offline
+## ☑ Requirements & Notes
+- Requires Java (JRE) installed for LanguageTool offline
+- Optionally disable style corrections in app interface
+- Easily deployable on Streamlit Cloud, Hugging Face Spaces
 
-🎚️ To disable style corrections, uncheck the box in the app interface
+---
 
-☁️ Easily deployable on Streamlit Cloud or Hugging Face Spaces
+## 🚧 Future Enhancements
+- 🤖 Integrate transformer models for fluent rewriting
+- 🧑‍💼 Add user login & correction history
+- 🎭 Style tone options (Formal, Academic, Casual)
+- 🌐 Multi-language grammar correction support
 
-📈 Future Enhancements
+---
 
-🤖 Integrate a transformer model (T5, BERT) for fluent rewriting
-
-🧑‍💼 Add user login & correction history
-
-🎭 Style tone options (Formal, Academic, Casual)
-
-🌐 Multi-language grammar correction support
-
-<p align="center"> <img src="https://media.giphy.com/media/IhDjGTADfY2lQ/giphy.gif" width="90" alt="typewriter animation"/><br/> <b>Write clearly. Write confidently. ✍️</b> </p>
-💡 Developer
-
-👨‍💻 Created by Omkar
-
-⭐ If you like this project, give it a Star on GitHub — it helps more than you think!
-
-<p align="center"> <img src="https://github.githubassets.com/images/mona-whisper.gif" width="80" alt="typing animation"/><br/> <em>“Good writing is clear thinking made visible.”</em> </p> ```
+<p align="center">
+  <img src="https://github.githubassets.com/images/mona-whisper.gif" width="80" alt="typing animation"/><br/>
+  <em>“Good writing is clear thinking made visible.”</em>
+</p>
